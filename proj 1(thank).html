@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+	<link rel="icon" type="image/png" href="C:\Users\Admin\Documents\HTML\notepad++\templates\pet.png">
+</head>
+<style>
+strong{color:red; font-family:cursive;}
+article{padding:40px; border-radius:10px;margin-bottom: 20px;box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);</style>
+<body>
+
+    <h1 style="text-align:center; background: linear-gradient(to right, #a1c4fd, #1f1c18, #ffba00);
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; ">🐾 Thank You for Adopting! 🏡❤</h1>
+<article>
+	<strong>Dear Animal Lover,</strong><br>
+	Thank you for opening your heart and home to a furry friend! 🐶🐱🐦 Your kindness has given a precious soul a second chance at love and happiness. Every adoption creates a beautiful bond that lasts a lifetime.
+<br><ins><strong style="color:red;">Remember:</strong></ins>
+<ul><li>If you ever face any challenges with your pet, please don’t abandon them. We understand that circumstances change, and we are here to help. Instead of leaving them, reach out to us or a trusted adoption center—we will always be ready to support and care for them.
+</li>
+<li>For any emergencies or concerns, feel free to contact us. Your pet is now part of our extended family, and we will always be here to help!
+</li>
+<li>🌟 "A pet’s love is forever. Let’s cherish and protect it together." 🌟
+</li></ul>
+🐾 Thank you once again for choosing love, kindness, and responsibility!
+    <p>Your adoption details have been submitted successfully.</p></article>
+
+    <fieldset style="background: linear-gradient(90deg, rgba(247,247,255,0.5494572829131652) 0%, rgba(161,40,230,0.40379901960784315) 55%);;">
+        <legend style="text-align:center; font-family:Monospace; font-size:30px;">Adopter Details</legend>
+        <p><strong>Name:</strong> {{data.name }}</p>
+        <p><strong>Address:</strong> {{ data.address }}</p>
+        <p><strong>Contact:</strong> {{ data.contact }}</p>
+        <p><strong>Previous Pet:</strong> {{ data.previous_pet }}</p>
+        <p><strong>Pet Adopted:</strong> {{ data.pet }}</p>
+        <p><strong>Email:</strong> {{ data.email }}</p>
+		<p><strong>Adopted Date:</strong>{{data.date}}</p>
+		<p><strong>Paymethod:</strong>{{data.payment}}</p>
+        <p><strong>Adopter Photo:</strong>{{ data.file }}</p>
+		<button onclick="window.print()">Print Receipt </button>
+    </fieldset>
+	<CENTER>
+	<marquee style="font-size:35px;">"Home is Where the Paw Prints Are! 🏡🐾"</marquee>
+	<iframe src="https://www.youtube.com/embed/uY0U23zWA20?playlist=uY0U23zWA20&loop=1&&autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="1" style="widht:100px; height:200px;" allowfullscreen ></iframe>
+	<iframe src="https://www.youtube.com/embed/e_IwS6q9BOk?playlist=e_IwS6q9BOk&loop=1&autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="1" style="widht:100px; height:200px;" allowfullscreen></iframe><BR>
+	</CENTER><BR><BR>
+<a href="/" style="font-size:20px;">Home Page</a>
+<a href="/proj 1(adopt)" style="float:right; font-size:20px;">Back</a>
+
+	
+</body>
+</html>
